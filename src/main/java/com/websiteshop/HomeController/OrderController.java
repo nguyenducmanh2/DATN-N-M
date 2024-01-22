@@ -52,6 +52,7 @@ public class OrderController {
 
     @GetMapping("/order/checkout")
     public String checkout(Model model) {
+
         return "order/checkout";
     }
 

@@ -60,7 +60,7 @@ public class ForgotPasswordController {
         MimeMessage message = javaMailSender.createMimeMessage();
         MimeMessageHelper helper = new MimeMessageHelper(message);
 
-        helper.setFrom("contact@shopme.com", "ShopNow Support");
+        helper.setFrom("contact@shopme.com", "OneTouch Support");
         helper.setTo(recipientEmail);
 
         String subject = "Đây là liên kết để đặt lại mật khẩu của bạn";
