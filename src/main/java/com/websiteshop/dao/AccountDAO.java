@@ -23,5 +23,6 @@ public interface AccountDAO extends JpaRepository<Account, String> {
     Account findByUsername(String username);
 
     long countByFullnameContaining(String fullname);
+//    Account findAccountByID(String id);
 
 }

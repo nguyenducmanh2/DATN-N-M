@@ -154,6 +154,7 @@ public class ProductController {
         return "product/list";
     }
 
+
     @GetMapping("/search/paginated")
     public String searchPaginated(ModelMap model,
             @RequestParam(name = "name", required = false) String name,

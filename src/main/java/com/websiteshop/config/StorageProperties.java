@@ -9,4 +9,5 @@ import lombok.Data;
 public class StorageProperties {
 
 	private String location;
+
 }

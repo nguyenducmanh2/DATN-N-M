@@ -2,7 +2,7 @@ const app = angular.module("shopping-cart-app", []);
 
 
 app.controller("shopping-cart-ctrl", function ($scope, $http) {
-    //Quanligiohang
+
     $scope.cart = {
         items: [],
         //themsanphamvaogiohang

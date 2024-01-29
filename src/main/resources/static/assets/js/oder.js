@@ -1,4 +1,4 @@
-//quản lý sự kiện Jquery
+
 $(document).ready(function() {
 
     var orderid =0;

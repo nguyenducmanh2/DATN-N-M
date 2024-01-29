@@ -13,7 +13,7 @@ function carousel() {
     setTimeout(carousel, 2500);    
 }
 
-// click
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
